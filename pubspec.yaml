@@ -1,0 +1,60 @@
+name: amazon_clone
+description: A clone for amazon ecommerce.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5
+  http: ^0.13.5
+  shared_preferences: ^2.0.17
+  provider: ^6.0.5
+#  don't update badges!
+  badges: ^2.0.3
+  carousel_slider: ^4.2.1
+  dotted_border: ^2.0.0+3
+  file_picker: ^5.2.5
+  cloudinary_public: ^0.20.0
+  flutter_rating_bar: ^4.0.1
+  smooth_page_indicator: ^1.0.0+2
+  intl: ^0.18.0
+  responsive_framework: ^0.2.0
+  flag: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
+
+
+flutter:
+
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: AmazonEmber
+      fonts:
+        - asset: assets/fonts/AmazonEmber_Heavy.ttf
+          weight: 900
+        - asset: assets/fonts/AmazonEmber_Bold.ttf
+          weight: 700
+        - asset: assets/fonts/AmazonEmber_Medium.ttf
+          weight: 500
+        - asset: assets/fonts/AmazonEmber_Regular.ttf
+          weight: 400
+        - asset: assets/fonts/AmazonEmber_Light.ttf
+          weight: 300
+        - asset: assets/fonts/AmazonEmber_Thin.ttf
+          weight: 100
+
